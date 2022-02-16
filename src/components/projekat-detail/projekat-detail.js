@@ -1,42 +1,43 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { PROJEKTI_DATA } from "../projekti/projekti.data";
-import { ProjekatDetailContainer } from "./projekat-detail.style";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+import {
+  ProjekatDetailContainer,
+  ItemsContainer,
+} from "./projekat-detail.style";
+import "photoswipe/dist/photoswipe.css";
+import "photoswipe/dist/default-skin/default-skin.css";
+
+import { Gallery, Item } from "react-photoswipe-gallery";
 const ProjekatDetail = () => {
   let { param } = useParams();
 
   const projekat = PROJEKTI_DATA.filter((projekat) => {
     return projekat.param === param;
   });
-  const images = projekat[0].images.map((img) => {
-    return img.original;
-  });
-
-  const imgStyle = {
-    maxWidth: "100%",
-    maxHeight: "100%",
-  };
+  const images = projekat[0].images;
 
   return (
     <div>
-      <Carousel
-        showArrows={true}
-        infiniteLoop={true}
-        emulateTouch={true}
-        swipeable={true}
-        autoPlay={true}
-        dynamicHeight={true}
-      >
-        {images.map((img) => {
-          return (
-            <ProjekatDetailContainer key={img}>
-              <img style={imgStyle} src={img} />
-            </ProjekatDetailContainer>
-          );
-        })}
-      </Carousel>
+      <Gallery>
+        <ItemsContainer>
+          {images.map((img) => {
+            return (
+              <Item
+                key={img.original}
+                original={img.original}
+                thumbnail={img.thumbnail}
+                width="1024"
+                height="768"
+              >
+                {({ ref, open }) => (
+                  <img ref={ref} onClick={open} src={img.thumbnail} />
+                )}
+              </Item>
+            );
+          })}
+        </ItemsContainer>
+      </Gallery>
     </div>
   );
 };

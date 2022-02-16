@@ -9,6 +9,7 @@ import {
 import { DELATNOSTI_DATA } from "./homepage.data";
 import Delatnosti from "../delatnosti/delatnosti";
 import Saradnici from "../saradnici/saradnici";
+import Radnici from "../radnici/radnici";
 const HomePage = () => {
   return (
     <div>
@@ -33,6 +34,7 @@ const HomePage = () => {
       </HomePageInfoContainer>
       <Delatnosti delatnosti={DELATNOSTI_DATA} />
       <Saradnici />
+      <Radnici />
     </div>
   );
 };

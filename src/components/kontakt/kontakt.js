@@ -1,7 +1,11 @@
 import React from "react";
-
+import MapAndInfo from "../map/map";
 const Kontakt = () => {
-  return <div>Kontakt</div>;
+  return (
+    <div>
+      <MapAndInfo />
+    </div>
+  );
 };
 
 export default Kontakt;
