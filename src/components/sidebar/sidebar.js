@@ -6,11 +6,11 @@ import {
 } from "./sidebar.style";
 import "./sidebar.scss";
 const Sidebar = ({ showSidebar, toggleSidebar }) => {
-  let styles = { width: 0, opacity: 0 };
+  let styles = { width: 0, opacity: 0, pointerEvents: "none" };
   if (showSidebar) {
-    styles = { width: "100%", opacity: 1 };
+    styles = { width: "100%", opacity: 1, pointerEvents: "all" };
   } else {
-    styles = { width: 0, opacity: 0 };
+    styles = { width: 0, opacity: 0, pointerEvents: "none" };
   }
 
   return (

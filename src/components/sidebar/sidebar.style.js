@@ -11,6 +11,7 @@ export const SidebarContainer = styled.div`
   z-index: 15000;
   transition: all 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   background-color: #212529;
+  pointer-events: none;
   @media only screen and (min-width: 770px) {
     display: none;
   }
