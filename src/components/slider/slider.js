@@ -47,7 +47,7 @@ class Slider extends React.Component {
     let id = 0;
     return (
       <div className={classNames("slider", { "s--ready": sliderReady })}>
-        <p className="slider__top-heading">Travelers</p>
+        {/*<p className="slider__top-heading">Travelers</p>*/}
         <div className="slider__slides">
           {this.props.slides.map((slide, index) => (
             <div
@@ -66,7 +66,7 @@ class Slider extends React.Component {
                     <span key={id++}>{l}</span>
                   ))}
                 </h2>
-                <p className="slider__slide-readmore">read more</p>
+                {/*<p className="slider__slide-readmore">read more</p>*/}
               </div>
               <div className="slider__slide-parts">
                 {[...Array(this.IMAGE_PARTS).fill()].map((x, i) => (

@@ -11,31 +11,30 @@ import Delatnosti from "../delatnosti/delatnosti";
 import Saradnici from "../saradnici/saradnici";
 import Radnici from "../radnici/radnici";
 import sud from "../../assets/sudkg.jpg";
+import zeleznicka from "../../assets/zeleznicka-glavna.jpg";
+import skcrkva from "../../assets/crkvask.jpg";
+import bw from "../../assets/bw-main.jpg";
 const HomePage = () => {
   const slides = [
     {
-      city: "Paris",
-      country: "France",
+      city: "Belgrade Waterfront",
+      country: "Beograd",
+      img: bw,
+    },
+    {
+      city: "Železnička stanica",
+      country: "Beograd",
+      img: zeleznicka,
+    },
+    {
+      city: "Saborna crkva",
+      country: "Sremski Karlovci",
+      img: skcrkva,
+    },
+    {
+      city: "Palata Pravde",
+      country: "Kragujevac",
       img: sud,
-    },
-    {
-      city: "Singapore",
-      img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg",
-    },
-    {
-      city: "Prague",
-      country: "Czech Republic",
-      img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg",
-    },
-    {
-      city: "Amsterdam",
-      country: "Netherlands",
-      img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg",
-    },
-    {
-      city: "Moscow",
-      country: "Russia",
-      img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg",
     },
   ];
 
