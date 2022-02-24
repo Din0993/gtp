@@ -12,6 +12,7 @@ export const HomePageInfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 50px 0;
+  border-top: 1px solid red;
 `;
 
 export const HomePageInfoHeader = styled.h2`

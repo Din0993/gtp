@@ -45,6 +45,7 @@ class Slider extends React.Component {
   render() {
     const { activeSlide, prevSlide, sliderReady } = this.state;
     let id = 0;
+
     return (
       <div className={classNames("slider", { "s--ready": sliderReady })}>
         {/*<p className="slider__top-heading">Travelers</p>*/}
@@ -62,7 +63,7 @@ class Slider extends React.Component {
                   {slide.country || slide.city}
                 </h3>
                 <h2 className="slider__slide-heading">
-                  {slide.city.split("").map((l) => (
+                  {slide.city.split(/(\s+)/).map((l) => (
                     <span key={id++}>{l}</span>
                   ))}
                 </h2>

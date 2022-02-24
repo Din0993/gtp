@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const DelatnostiContainer = styled.div`
   width: 100%;
   height: 800px;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
   @media only screen and (max-width: 950px) {
     height: 1600px;
   }
