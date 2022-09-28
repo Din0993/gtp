@@ -15,12 +15,17 @@ import zeleznicka from "../../assets/zeleznicka-glavna.jpg";
 import skcrkva from "../../assets/crkvask.jpg";
 import bw from "../../assets/bw-main.jpg";
 import gtplogo from "../../assets/gtplogoslider.png";
+import gtplogo2 from "../../assets/logo2.png";
+import gtplogo3 from "../../assets/logo3.png";
+import gtplogo4 from "../../assets/logo4.png";
+import gtplogo5 from "../../assets/logo5.jpg";
+
 const HomePage = () => {
   const slides = [
     {
       city: "Belgrade Waterfront",
       country: "Beograd",
-      img: gtplogo,
+      img: gtplogo5,
     },
     {
       city: "Belgrade Waterfront",
