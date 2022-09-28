@@ -7,7 +7,7 @@ export const ProjektiContainer = styled.div`
   padding: 10px 30px;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  padding-top: 120px;
 `;
 
 export const ProjektiItem = styled.div`

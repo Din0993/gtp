@@ -7,6 +7,8 @@ import Footer from "./components/footer/footer";
 import Kontakt from "./components/kontakt/kontakt";
 import Projekti from "./components/projekti/projekti";
 import ProjekatDetail from "./components/projekat-detail/projekat-detail";
+import Onama from "./components/onama/onama";
+import NasTim from "./components/nas-tim/nas-tim";
 function App() {
   return (
     <div className="App">
@@ -15,8 +17,10 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/kontakt" element={<Kontakt />} />
-          <Route path="/projekti" element={<Projekti />} />
-          <Route path="/projekti/:param" element={<ProjekatDetail />} />
+          <Route path="/reference" element={<Projekti />} />
+          <Route path="/reference/:param" element={<ProjekatDetail />} />
+          <Route path="/o-nama" element={<Onama />} />
+          <Route path="/nas-tim" element={<NasTim />} />
         </Routes>
         <Footer />
       </Router>

@@ -4,6 +4,7 @@ export const KontaktContainer = styled.div`
   display: flex;
   height: 740px;
   width: 100%;
+  padding-top: 100px;
 
   @media only screen and (max-width: 1500px) {
     height: 1200px;

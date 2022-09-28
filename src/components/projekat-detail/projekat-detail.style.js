@@ -11,7 +11,7 @@ export const ProjekatDetailImg = styled.img`
 `;
 
 export const ItemsContainer = styled.div`
-  margin-top: 50px;
+  padding-top: 120px;
   display: flex;
   gap: 10px;
   align-items: center;

@@ -13,7 +13,7 @@ import { BiPhone, BiMailSend, BiPin } from "react-icons/bi";
 
 import "./map.css";
 const MapAndInfo = () => {
-  const position = [44.803606, 20.450252];
+  const position = [44.770109665901835, 20.48356472610921];
   return (
     <KontaktContainer>
       <MapContainerStyle>
@@ -43,7 +43,7 @@ const MapAndInfo = () => {
           <KontaktInfoItem>
             <BiPin size="3em" />
             <h3>Adresa</h3>
-            <p>Adresa 111 111 </p>
+            <p>Darvinova 25, Beograd</p>
           </KontaktInfoItem>
         </KontaktInfoContainer>
       </KontaktRightSideContainer>

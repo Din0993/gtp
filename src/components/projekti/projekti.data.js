@@ -64,7 +64,7 @@ import sud3 from "../../assets/projekti/sudkg/sud-kg-3.jpg";
 
 export const PROJEKTI_DATA = [
   {
-    url: "/projekti/bw-vista",
+    url: "/reference/bw-vista",
     param: "bw-vista",
     heading: "BW Vista",
     imgSrc: "https://pbs.twimg.com/media/EcT8ctVWkAE4Pyo.jpg",
@@ -76,7 +76,7 @@ export const PROJEKTI_DATA = [
     ],
   },
   {
-    url: "/projekti/bw-arcadia",
+    url: "/reference/bw-arcadia",
     param: "bw-arcadia",
     heading: "BW Arcadia",
     imgSrc: arcadia,
@@ -94,7 +94,7 @@ export const PROJEKTI_DATA = [
     ],
   },
   {
-    url: "/projekti/bw-aurora",
+    url: "/reference/bw-aurora",
     param: "bw-aurora",
     heading: "BW Aurora",
     imgSrc: aurora,
@@ -107,7 +107,7 @@ export const PROJEKTI_DATA = [
     ],
   },
   {
-    url: "/projekti/bw-parkview",
+    url: "/reference/bw-parkview",
     param: "bw-parkview",
     heading: "BW Parkview",
     imgSrc: parkview,
@@ -121,7 +121,7 @@ export const PROJEKTI_DATA = [
     ],
   },
   {
-    url: "/projekti/zeleznicka-stanica",
+    url: "/reference/zeleznicka-stanica",
     param: "zeleznicka-stanica",
     heading: "Železnička stanica",
     imgSrc: zeleznicka,
@@ -138,7 +138,7 @@ export const PROJEKTI_DATA = [
     ],
   },
   {
-    url: "/projekti/saborna-crkva",
+    url: "/reference/saborna-crkva",
     param: "saborna-crkva",
     heading: "Saborna crkva",
     imgSrc: crkva,
@@ -150,7 +150,7 @@ export const PROJEKTI_DATA = [
     ],
   },
   {
-    url: "/projekti/hotel-indigo",
+    url: "/reference/hotel-indigo",
     param: "hotel-indigo",
     heading: "Hotel Indigo",
     imgSrc: hotel,
@@ -162,7 +162,7 @@ export const PROJEKTI_DATA = [
     ],
   },
   {
-    url: "/projekti/sirius",
+    url: "/reference/sirius",
     param: "sirius",
     heading: "Sirius",
     imgSrc: sirius,
@@ -174,7 +174,7 @@ export const PROJEKTI_DATA = [
     ],
   },
   {
-    url: "/projekti/vojvode-stepe-zgrada",
+    url: "/reference/vojvode-stepe-zgrada",
     param: "vojvode-stepe-zgrada",
     heading: "Vojvode stepe zgrada",
     imgSrc: stepe,
@@ -186,7 +186,7 @@ export const PROJEKTI_DATA = [
     ],
   },
   {
-    url: "/projekti/palata-pravde-kg",
+    url: "/reference/palata-pravde-kg",
     param: "palata-pravde-kg",
     heading: "Palata pravde",
     imgSrc: sud,

@@ -14,8 +14,14 @@ import sud from "../../assets/sudkg.jpg";
 import zeleznicka from "../../assets/zeleznicka-glavna.jpg";
 import skcrkva from "../../assets/crkvask.jpg";
 import bw from "../../assets/bw-main.jpg";
+import gtplogo from "../../assets/gtplogoslider.png";
 const HomePage = () => {
   const slides = [
+    {
+      city: "Belgrade Waterfront",
+      country: "Beograd",
+      img: gtplogo,
+    },
     {
       city: "Belgrade Waterfront",
       country: "Beograd",

@@ -2,7 +2,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
-  position: relative;
+  position: fixed;
+  width: 100%;
   display: flex;
   margin: 0;
   padding: 0 80px;

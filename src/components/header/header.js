@@ -21,7 +21,9 @@ const Header = () => {
         <HeaderLogo src={logo} />
         <HeaderLinksContainer>
           <HeaderLink to="/">Početna</HeaderLink>
-          <HeaderLink to="/projekti">Projekti</HeaderLink>
+          <HeaderLink to="/o-nama">O Nama</HeaderLink>
+          <HeaderLink to="/reference">Reference</HeaderLink>
+          <HeaderLink to="/nas-tim">Naš Tim</HeaderLink>
           <HeaderLink to="/kontakt">Kontakt</HeaderLink>
         </HeaderLinksContainer>
         <HeaderMenu onClick={toggleSidebar}>
