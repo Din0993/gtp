@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const KontaktContainer = styled.div`
   display: flex;
-  height: 740px;
   width: 100%;
   padding-top: 100px;
 

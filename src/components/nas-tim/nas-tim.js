@@ -1,7 +1,10 @@
 import React from "react";
-import styled from "styled-components";
-
+import Radnici from "../radnici/radnici";
 const NasTim = () => {
-  return <div>NAS-TIM PAGE</div>;
+  return (
+    <div>
+      <Radnici />
+    </div>
+  );
 };
 export default NasTim;

@@ -72,7 +72,6 @@ const HomePage = () => {
       </HomePageInfoContainer>
       <Delatnosti delatnosti={DELATNOSTI_DATA} />
       <Saradnici />
-      <Radnici />
     </div>
   );
 };

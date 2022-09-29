@@ -17,7 +17,6 @@ export const SaradniciContainer = styled.div`
   align-items: center;
   padding: 45px 0;
   padding-bottom: 120px;
-  border-bottom: 1px solid red;
 `;
 
 export const SaradniciLogosContainer = styled.div`

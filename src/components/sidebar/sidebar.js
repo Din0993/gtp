@@ -20,8 +20,14 @@ const Sidebar = ({ showSidebar, toggleSidebar }) => {
           <SidebarLink to="/" onClick={toggleSidebar}>
             Početna
           </SidebarLink>
-          <SidebarLink to="/projekti" onClick={toggleSidebar}>
-            Projekti
+          <SidebarLink to="/o-nama" onClick={toggleSidebar}>
+            O Nama
+          </SidebarLink>
+          <SidebarLink to="/reference" onClick={toggleSidebar}>
+            Reference
+          </SidebarLink>
+          <SidebarLink to="/nas-tim" onClick={toggleSidebar}>
+            Naš Tim
           </SidebarLink>
           <SidebarLink to="/kontakt" onClick={toggleSidebar}>
             Kontakt
