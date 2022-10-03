@@ -74,6 +74,17 @@ export const PROJEKTI_DATA = [
       { original: vista2, thumbnail: "" },
       { original: vista3, thumbnail: "" },
     ],
+    info: {
+      naziv: "BW Vista",
+      location: "Lokacija",
+      godina: 2022,
+      tipProjekta: "Tip projekta",
+      dizajnerAutor: "Autor/dizajner",
+      organizator: "organizator",
+      povrsina: "10000 m2",
+      detalji:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mi facilisis dui tempor luctus ornare ac sapien. Morbi ut ultricies sapien. Mauris maximus, lectus consequat pulvinar condimentum, leo massa posuere lacus, eget viverra turpis sem et neque. Donec efficitur lacus odio, mattis posuere risus interdum eget. Nam malesuada sodales ante, vitae feugiat dui suscipit et. Nam quis turpis ipsum. Maecenas fringilla, orci id facilisis maximus, diam ligula semper orci, ac hendrerit leo eros a erat. Proin porttitor ipsum massa, venenatis faucibus mauris aliquet sit amet. Nam metus turpis, tempus ac lectus sed, dignissim bibendum lorem. Maecenas ut gravida leo. Etiam fringilla, nibh a efficitur cursus, augue tellus aliquam purus, quis gravida mi quam nec nulla. Sed massa libero, sagittis et sem id, porttitor elementum sapien. In hac habitasse platea dictumst.",
+    },
   },
   {
     url: "/reference/bw-arcadia",
@@ -92,6 +103,17 @@ export const PROJEKTI_DATA = [
       { original: arcadia8high, thumbnail: arcadia8 },
       { original: arcadia9high, thumbnail: arcadia9 },
     ],
+    info: {
+      naziv: "BW Arcadia",
+      location: "Lokacija",
+      godina: 2022,
+      tipProjekta: "Tip projekta",
+      dizajnerAutor: "Autor/dizajner",
+      organizator: "organizator",
+      povrsina: "10000 m2",
+      detalji:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mi facilisis dui tempor luctus ornare ac sapien. Morbi ut ultricies sapien. Mauris maximus, lectus consequat pulvinar condimentum, leo massa posuere lacus, eget viverra turpis sem et neque. Donec efficitur lacus odio, mattis posuere risus interdum eget. Nam malesuada sodales ante, vitae feugiat dui suscipit et. Nam quis turpis ipsum. Maecenas fringilla, orci id facilisis maximus, diam ligula semper orci, ac hendrerit leo eros a erat. Proin porttitor ipsum massa, venenatis faucibus mauris aliquet sit amet. Nam metus turpis, tempus ac lectus sed, dignissim bibendum lorem. Maecenas ut gravida leo. Etiam fringilla, nibh a efficitur cursus, augue tellus aliquam purus, quis gravida mi quam nec nulla. Sed massa libero, sagittis et sem id, porttitor elementum sapien. In hac habitasse platea dictumst.",
+    },
   },
   {
     url: "/reference/bw-aurora",
@@ -105,6 +127,17 @@ export const PROJEKTI_DATA = [
       { original: aurora3, thumbnail: "" },
       { original: aurora4, thumbnail: "" },
     ],
+    info: {
+      naziv: "BW Aurora",
+      location: "Lokacija",
+      godina: 2022,
+      tipProjekta: "Tip projekta",
+      dizajnerAutor: "Autor/dizajner",
+      organizator: "organizator",
+      povrsina: "10000 m2",
+      detalji:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mi facilisis dui tempor luctus ornare ac sapien. Morbi ut ultricies sapien. Mauris maximus, lectus consequat pulvinar condimentum, leo massa posuere lacus, eget viverra turpis sem et neque. Donec efficitur lacus odio, mattis posuere risus interdum eget. Nam malesuada sodales ante, vitae feugiat dui suscipit et. Nam quis turpis ipsum. Maecenas fringilla, orci id facilisis maximus, diam ligula semper orci, ac hendrerit leo eros a erat. Proin porttitor ipsum massa, venenatis faucibus mauris aliquet sit amet. Nam metus turpis, tempus ac lectus sed, dignissim bibendum lorem. Maecenas ut gravida leo. Etiam fringilla, nibh a efficitur cursus, augue tellus aliquam purus, quis gravida mi quam nec nulla. Sed massa libero, sagittis et sem id, porttitor elementum sapien. In hac habitasse platea dictumst.",
+    },
   },
   {
     url: "/reference/bw-parkview",
@@ -119,6 +152,17 @@ export const PROJEKTI_DATA = [
       { original: parkview4, thumbnail: "" },
       { original: parkview5, thumbnail: "" },
     ],
+    info: {
+      naziv: "BW Parkview",
+      location: "Lokacija",
+      godina: 2022,
+      tipProjekta: "Tip projekta",
+      dizajnerAutor: "Autor/dizajner",
+      organizator: "organizator",
+      povrsina: "10000 m2",
+      detalji:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mi facilisis dui tempor luctus ornare ac sapien. Morbi ut ultricies sapien. Mauris maximus, lectus consequat pulvinar condimentum, leo massa posuere lacus, eget viverra turpis sem et neque. Donec efficitur lacus odio, mattis posuere risus interdum eget. Nam malesuada sodales ante, vitae feugiat dui suscipit et. Nam quis turpis ipsum. Maecenas fringilla, orci id facilisis maximus, diam ligula semper orci, ac hendrerit leo eros a erat. Proin porttitor ipsum massa, venenatis faucibus mauris aliquet sit amet. Nam metus turpis, tempus ac lectus sed, dignissim bibendum lorem. Maecenas ut gravida leo. Etiam fringilla, nibh a efficitur cursus, augue tellus aliquam purus, quis gravida mi quam nec nulla. Sed massa libero, sagittis et sem id, porttitor elementum sapien. In hac habitasse platea dictumst.",
+    },
   },
   {
     url: "/reference/zeleznicka-stanica",
@@ -136,6 +180,17 @@ export const PROJEKTI_DATA = [
       { original: zeleznicka7, thumbnail: "" },
       { original: zeleznicka8, thumbnail: "" },
     ],
+    info: {
+      naziv: "Železnička stanica",
+      location: "Lokacija",
+      godina: 2022,
+      tipProjekta: "Tip projekta",
+      dizajnerAutor: "Autor/dizajner",
+      organizator: "organizator",
+      povrsina: "10000 m2",
+      detalji:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mi facilisis dui tempor luctus ornare ac sapien. Morbi ut ultricies sapien. Mauris maximus, lectus consequat pulvinar condimentum, leo massa posuere lacus, eget viverra turpis sem et neque. Donec efficitur lacus odio, mattis posuere risus interdum eget. Nam malesuada sodales ante, vitae feugiat dui suscipit et. Nam quis turpis ipsum. Maecenas fringilla, orci id facilisis maximus, diam ligula semper orci, ac hendrerit leo eros a erat. Proin porttitor ipsum massa, venenatis faucibus mauris aliquet sit amet. Nam metus turpis, tempus ac lectus sed, dignissim bibendum lorem. Maecenas ut gravida leo. Etiam fringilla, nibh a efficitur cursus, augue tellus aliquam purus, quis gravida mi quam nec nulla. Sed massa libero, sagittis et sem id, porttitor elementum sapien. In hac habitasse platea dictumst.",
+    },
   },
   {
     url: "/reference/saborna-crkva",
@@ -148,6 +203,17 @@ export const PROJEKTI_DATA = [
       { original: crkva2, thumbnail: "" },
       { original: crkva3, thumbnail: "" },
     ],
+    info: {
+      naziv: "Saborna crkva",
+      location: "Lokacija",
+      godina: 2022,
+      tipProjekta: "Tip projekta",
+      dizajnerAutor: "Autor/dizajner",
+      organizator: "organizator",
+      povrsina: "10000 m2",
+      detalji:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mi facilisis dui tempor luctus ornare ac sapien. Morbi ut ultricies sapien. Mauris maximus, lectus consequat pulvinar condimentum, leo massa posuere lacus, eget viverra turpis sem et neque. Donec efficitur lacus odio, mattis posuere risus interdum eget. Nam malesuada sodales ante, vitae feugiat dui suscipit et. Nam quis turpis ipsum. Maecenas fringilla, orci id facilisis maximus, diam ligula semper orci, ac hendrerit leo eros a erat. Proin porttitor ipsum massa, venenatis faucibus mauris aliquet sit amet. Nam metus turpis, tempus ac lectus sed, dignissim bibendum lorem. Maecenas ut gravida leo. Etiam fringilla, nibh a efficitur cursus, augue tellus aliquam purus, quis gravida mi quam nec nulla. Sed massa libero, sagittis et sem id, porttitor elementum sapien. In hac habitasse platea dictumst.",
+    },
   },
   {
     url: "/reference/hotel-indigo",
@@ -160,6 +226,17 @@ export const PROJEKTI_DATA = [
       { original: hotel2, thumbnail: "" },
       { original: hotel3, thumbnail: "" },
     ],
+    info: {
+      naziv: "Hotel Indigo",
+      location: "Lokacija",
+      godina: 2022,
+      tipProjekta: "Tip projekta",
+      dizajnerAutor: "Autor/dizajner",
+      organizator: "organizator",
+      povrsina: "10000 m2",
+      detalji:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mi facilisis dui tempor luctus ornare ac sapien. Morbi ut ultricies sapien. Mauris maximus, lectus consequat pulvinar condimentum, leo massa posuere lacus, eget viverra turpis sem et neque. Donec efficitur lacus odio, mattis posuere risus interdum eget. Nam malesuada sodales ante, vitae feugiat dui suscipit et. Nam quis turpis ipsum. Maecenas fringilla, orci id facilisis maximus, diam ligula semper orci, ac hendrerit leo eros a erat. Proin porttitor ipsum massa, venenatis faucibus mauris aliquet sit amet. Nam metus turpis, tempus ac lectus sed, dignissim bibendum lorem. Maecenas ut gravida leo. Etiam fringilla, nibh a efficitur cursus, augue tellus aliquam purus, quis gravida mi quam nec nulla. Sed massa libero, sagittis et sem id, porttitor elementum sapien. In hac habitasse platea dictumst.",
+    },
   },
   {
     url: "/reference/sirius",
@@ -172,6 +249,17 @@ export const PROJEKTI_DATA = [
       { original: sirius2, thumbnail: "" },
       { original: sirius3, thumbnail: "" },
     ],
+    info: {
+      naziv: "Sirius",
+      location: "Lokacija",
+      godina: 2022,
+      tipProjekta: "Tip projekta",
+      dizajnerAutor: "Autor/dizajner",
+      organizator: "organizator",
+      povrsina: "10000 m2",
+      detalji:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mi facilisis dui tempor luctus ornare ac sapien. Morbi ut ultricies sapien. Mauris maximus, lectus consequat pulvinar condimentum, leo massa posuere lacus, eget viverra turpis sem et neque. Donec efficitur lacus odio, mattis posuere risus interdum eget. Nam malesuada sodales ante, vitae feugiat dui suscipit et. Nam quis turpis ipsum. Maecenas fringilla, orci id facilisis maximus, diam ligula semper orci, ac hendrerit leo eros a erat. Proin porttitor ipsum massa, venenatis faucibus mauris aliquet sit amet. Nam metus turpis, tempus ac lectus sed, dignissim bibendum lorem. Maecenas ut gravida leo. Etiam fringilla, nibh a efficitur cursus, augue tellus aliquam purus, quis gravida mi quam nec nulla. Sed massa libero, sagittis et sem id, porttitor elementum sapien. In hac habitasse platea dictumst.",
+    },
   },
   {
     url: "/reference/vojvode-stepe-zgrada",
@@ -184,6 +272,17 @@ export const PROJEKTI_DATA = [
       { original: stepe2, thumbnail: "" },
       { original: stepe3, thumbnail: "" },
     ],
+    info: {
+      naziv: "Vojvode stepe zgrada",
+      location: "Lokacija",
+      godina: 2022,
+      tipProjekta: "Tip projekta",
+      dizajnerAutor: "Autor/dizajner",
+      organizator: "organizator",
+      povrsina: "10000 m2",
+      detalji:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mi facilisis dui tempor luctus ornare ac sapien. Morbi ut ultricies sapien. Mauris maximus, lectus consequat pulvinar condimentum, leo massa posuere lacus, eget viverra turpis sem et neque. Donec efficitur lacus odio, mattis posuere risus interdum eget. Nam malesuada sodales ante, vitae feugiat dui suscipit et. Nam quis turpis ipsum. Maecenas fringilla, orci id facilisis maximus, diam ligula semper orci, ac hendrerit leo eros a erat. Proin porttitor ipsum massa, venenatis faucibus mauris aliquet sit amet. Nam metus turpis, tempus ac lectus sed, dignissim bibendum lorem. Maecenas ut gravida leo. Etiam fringilla, nibh a efficitur cursus, augue tellus aliquam purus, quis gravida mi quam nec nulla. Sed massa libero, sagittis et sem id, porttitor elementum sapien. In hac habitasse platea dictumst.",
+    },
   },
   {
     url: "/reference/palata-pravde-kg",
@@ -196,5 +295,16 @@ export const PROJEKTI_DATA = [
       { original: sud2, thumbnail: "" },
       { original: sud3, thumbnail: "" },
     ],
+    info: {
+      naziv: "Palata pravde",
+      location: "Lokacija",
+      godina: 2022,
+      tipProjekta: "Tip projekta",
+      dizajnerAutor: "Autor/dizajner",
+      organizator: "organizator",
+      povrsina: "10000 m2",
+      detalji:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mi facilisis dui tempor luctus ornare ac sapien. Morbi ut ultricies sapien. Mauris maximus, lectus consequat pulvinar condimentum, leo massa posuere lacus, eget viverra turpis sem et neque. Donec efficitur lacus odio, mattis posuere risus interdum eget. Nam malesuada sodales ante, vitae feugiat dui suscipit et. Nam quis turpis ipsum. Maecenas fringilla, orci id facilisis maximus, diam ligula semper orci, ac hendrerit leo eros a erat. Proin porttitor ipsum massa, venenatis faucibus mauris aliquet sit amet. Nam metus turpis, tempus ac lectus sed, dignissim bibendum lorem. Maecenas ut gravida leo. Etiam fringilla, nibh a efficitur cursus, augue tellus aliquam purus, quis gravida mi quam nec nulla. Sed massa libero, sagittis et sem id, porttitor elementum sapien. In hac habitasse platea dictumst.",
+    },
   },
 ];

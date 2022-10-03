@@ -42,9 +42,25 @@ export const HeaderLinksContainer = styled.div`
   @media only screen and (max-width: 985px) {
     font-size: 14px;
   }
-
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 955px) {
     font-size: 13px;
+    gap: 30px;
+  }
+  @media only screen and (max-width: 885px) {
+    font-size: 13px;
+    gap: 20px;
+  }
+
+  @media only screen and (max-width: 855px) {
+    font-size: 13px;
+    gap: 10px;
+  }
+
+  @media only screen and (max-width: 810px) {
+    font-size: 12px;
+  }
+  @media only screen and (max-width: 785px) {
+    font-size: 11px;
   }
   @media only screen and (max-width: 770px) {
     display: none;

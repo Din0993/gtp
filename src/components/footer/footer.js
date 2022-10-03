@@ -4,6 +4,7 @@ import {
   FooterLine,
   FooterText,
   FooterDiv,
+  FooterDiv2,
   FooterDivHeader,
   FooterDivPara,
   FooterDivLink,
@@ -51,14 +52,7 @@ const Footer = () => {
             <MdOutlineInsertLink style={{ color: "#ac0000" }} /> Kontakt
           </FooterDivLink>
         </FooterDiv>
-        <FooterDiv
-          style={{
-            width: "30%",
-            marginLeft: "auto",
-            justifyContent: "space-between",
-            paddingTop: "10px",
-          }}
-        >
+        <FooterDiv2>
           <FooterDivHeader2>
             &copy; 2022{" "}
             <span style={{ color: "#ac0000", fontSize: "20px" }}>
@@ -69,7 +63,7 @@ const Footer = () => {
           <FooterDivHeader style={{ fontSize: "16px" }}>
             Developed by Dino Sijarić
           </FooterDivHeader>
-        </FooterDiv>
+        </FooterDiv2>
       </FooterContainer>
     </div>
   );
